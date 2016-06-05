@@ -87,7 +87,7 @@
 <meta name="description">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://wukoo.github.io/index.html">
+<meta property="og:url" content="http://wukoo.github.io/tags/Python/index.html">
 <meta property="og:site_name" content="Hexo">
 <meta property="og:description">
 <meta name="twitter:card" content="summary">
@@ -110,7 +110,7 @@
   };
 </script>
 
-  <title> Hexo </title>
+  <title> Tag: Python | Hexo </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -141,9 +141,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left  ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -270,125 +268,45 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-collapse">
+    <div class="collection-title">
+      <h2 >
+        Python
+        <small>Tag</small>
+      </h2>
+    </div>
+
     
       
 
-  
-  
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+    <header class="post-header">
 
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
+      <h1 class="post-title">
         
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
+            <a class="post-title-link" href="/2016/06/06/RuntimeError-Python-is-not-installed-as-a-framework/" itemprop="url">
               
-                
-                <a class="post-title-link" href="/2016/06/06/RuntimeError-Python-is-not-installed-as-a-framework/" itemprop="url">
-                  Runtime Error Python is not installed as a framework.
-                </a>
+                <span itemprop="name">Runtime Error Python is not installed as a framework.</span>
               
-            
-          </h1>
+            </a>
         
+      </h1>
 
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-06-06T00:44:42+08:00" content="2016-06-06">
-              2016-06-06
-            </time>
-          </span>
+      <div class="post-meta">
+        <time class="post-time" itemprop="dateCreated"
+              datetime="2016-06-06T00:44:42+08:00"
+              content="2016-06-06" >
+          06-06
+        </time>
+      </div>
 
-          
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/06/06/RuntimeError-Python-is-not-installed-as-a-framework/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/06/06/RuntimeError-Python-is-not-installed-as-a-framework/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="Python-Virtulenv-安装matplotlib出错"><a href="#Python-Virtulenv-安装matplotlib出错" class="headerlink" title="Python Virtulenv 安装matplotlib出错"></a>Python Virtulenv 安装matplotlib出错</h1><p>今天在mac上配置python2.7的virtualenv，并且安装matplotlib，安装没有问题，但是出现如下报错。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">Traceback (most recent call last):</span><br><span class="line">  File &quot;../test.py&quot;, line 2, in &lt;module&gt;</span><br><span class="line">    import matplotlib.pyplot as plt</span><br><span class="line">  File &quot;/Users/wnz/Projects/datapython2/lib/python2.7/site-packages/matplotlib-1.5.2rc2+1932.g75a35ef-py2.7-macosx-10.11-x86_64.egg/matplotlib/pyplot.py&quot;, line 113, in &lt;module&gt;</span><br><span class="line">    _backend_mod, new_figure_manager, draw_if_interactive, _show = pylab_setup()</span><br><span class="line">  File &quot;/Users/wnz/Projects/datapython2/lib/python2.7/site-packages/matplotlib-1.5.2rc2+1932.g75a35ef-py2.7-macosx-10.11-x86_64.egg/matplotlib/backends/__init__.py&quot;, line 55, in pylab_setup</span><br><span class="line">    [backend_name], 0)</span><br><span class="line">  File &quot;/Users/wnz/Projects/datapython2/lib/python2.7/site-packages/matplotlib-1.5.2rc2+1932.g75a35ef-py2.7-macosx-10.11-x86_64.egg/matplotlib/backends/backend_macosx.py&quot;, line 19, in &lt;module&gt;</span><br><span class="line">    from matplotlib.backends import _macosx</span><br><span class="line">RuntimeError: Python is not installed as a framework. The Mac OS X backend will not be able to function correctly if Python is not installed as a framework. See the Python documentation for more information on installing Python as a framework on Mac OS X. Please either reinstall Python as a framework, or try one of the other backends. If you are Working with Matplotlib in a virtual enviroment see &apos;Working with Matplotlib in Virtual environments&apos; in the Matplotlib FAQ</span><br></pre></td></tr></table></figure>
-<h1 id="解决方法"><a href="#解决方法" class="headerlink" title="解决方法"></a>解决方法</h1><p>后来在 <a href="http://matplotlib.org/faq/virtualenv_faq.html" target="_blank" rel="external">官方网站</a> 上找到了解决方法。主要意思是说matplotlib依赖于一些GUI的框架，因为需要渲染并且展示渲染的结果[<a href="http://my.oschina.net/swuly302/blog/94915" target="_blank" rel="external">2</a>]。但是多数的GUI框架pip都没办法直接安装，因此部署安装的时候需要多一步操作。</p>
-<p>原网页提供了一些workarouds，其中结尾提到的virtualenv-pythonw-osx[^virtualenv-pythonw-osx]，感觉更方便一些，但是github网页里没有写怎么安装，所以在这里记录一下。</p>
-<h2 id="1-首先用brew安装Python，但是必须要加参数-–framework"><a href="#1-首先用brew安装Python，但是必须要加参数-–framework" class="headerlink" title="1. 首先用brew安装Python，但是必须要加参数 –framework"></a>1. 首先用brew安装Python，但是必须要加参数 –framework</h2><pre><code>brew install python --framework
-</code></pre><h2 id="2-然后"><a href="#2-然后" class="headerlink" title="2. 然后"></a>2. 然后</h2><pre><code>git clone https://github.com/gldnspud/virtualenv-pythonw-osx.git
-</code></pre><h2 id="3-切换到虚拟的python工作环境，可以用which看一下是否切换成功"><a href="#3-切换到虚拟的python工作环境，可以用which看一下是否切换成功" class="headerlink" title="3. 切换到虚拟的python工作环境，可以用which看一下是否切换成功"></a>3. 切换到虚拟的python工作环境，可以用which看一下是否切换成功</h2><pre><code>source /..virtualenvpath../bin/activate
-cd virtualenv-pythonw-osx
-python setup.py install
-</code></pre><h2 id="4-虚拟python环境的bin-目录下会出现一个可执行文件fix-osx-virtualenv，然后执行"><a href="#4-虚拟python环境的bin-目录下会出现一个可执行文件fix-osx-virtualenv，然后执行" class="headerlink" title="4. 虚拟python环境的bin/目录下会出现一个可执行文件fix-osx-virtualenv，然后执行"></a>4. 虚拟python环境的bin/目录下会出现一个可执行文件fix-osx-virtualenv，然后执行</h2><pre><code>fix-osx-virtualenv `which python`/../..
-</code></pre><p>就可以了，然后试试看:)</p>
-<h2 id="References"><a href="#References" class="headerlink" title="References:"></a>References:</h2><ol>
-<li><a href="http://matplotlib.org/faq/virtualenv_faq.html" target="_blank" rel="external">Working with Matplotlib in Virtual environments</a></li>
-<li><a href="http://my.oschina.net/swuly302/blog/94915" target="_blank" rel="external">matplotlib中什么是后端</a></li>
-<li><a href="https://github.com/gldnspud/virtualenv-pythonw-osx" target="_blank" rel="external">virtualenv-pythonw-osx</a></li>
-</ol>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
+    </header>
   </article>
 
 
     
-  </section>
+  </div>
 
   
 
