@@ -69,8 +69,8 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-#  repo: git@github.com:wukoo/wukoo.github.io.git
-  repo: https://git.coding.net/wukoo/wukoo.git
+  repo: git@github.com:wukoo/wukoo.github.io.git
+#  repo: https://git.coding.net/wukoo/wukoo.git
 
 
 # Sidebar Avatar
